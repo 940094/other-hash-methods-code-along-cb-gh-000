@@ -11,7 +11,7 @@ require 'pry'
 def get_the_min(groceries)
   #code your solution here!
   array_of_groceries = []
-  grocery_items = groceries.each do |key, value|
+  groceries.each do |key, value|
     array_of_groceries << value
   end
   p grocery_items

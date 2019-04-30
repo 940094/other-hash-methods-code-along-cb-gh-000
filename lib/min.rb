@@ -14,5 +14,5 @@ def get_the_min(groceries)
     value
   end
   
-  return #smallest in the array
+  return#smallest in the array
 end

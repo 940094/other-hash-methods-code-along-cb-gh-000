@@ -13,6 +13,6 @@ def get_the_min(groceries)
   puts grocery_items = groceries.collect do |key, value|
     value
   end
-  
+
   return#smallest in the array
 end

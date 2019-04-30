@@ -10,9 +10,9 @@ require 'pry'
 
 def get_the_min(groceries)
   #code your solution here!
-  puts grocery_items = groceries.collect do |key, value|
+  grocery_items = groceries.collect do |key, value|
     value
   end
-
+  puts grocery_items
   return#smallest in the array
 end

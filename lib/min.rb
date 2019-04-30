@@ -12,7 +12,8 @@ def get_the_min(groceries)
   #code your solution here!
   array_of_groceries = []
   groceries.each do |key, value|
-    array_of_groceries << value
+    value.each do |grocery_item|
+      array_of_groceries << grocery_item
   end
   p array_of_groceries
   return#smallest in the array

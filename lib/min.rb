@@ -16,6 +16,5 @@ def get_the_min(groceries)
       array_of_groceries << grocery_item
     end
   end
-  p array_of_groceries
-  return#smallest in the array
+  return array_of_groceries.min
 end

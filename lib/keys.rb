@@ -12,4 +12,5 @@ def get_the_keys(groceries)
   #code your solution here!
   groceries.collect do |key, value|
     key
+  end
 end
